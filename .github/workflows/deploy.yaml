@@ -23,6 +23,7 @@ jobs:
       -name: Run test
        run: go test ./...
 
+
   compile:
     needs: test
     runs-on: ubuntu-latest
